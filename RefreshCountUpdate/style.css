@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+.container{
+    background-color: #120E43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 95vh;
+    margin: auto;
+    overflow: hidden;
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.counter{
+    font-size: 3.5rem;
+    color: #E8BD0D;
+}
+
+.fa{
+    color: #fff;
+}
+
+span.textforshow{
+    color:#fff;
+}
+
+@media screen and (max-width: 400px) {
+    body{
+        display: flex;
+        flex-direction:column ;
+    }
+  }
